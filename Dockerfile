@@ -1,5 +1,5 @@
 FROM tomcat:8.0
-MAINTAINER your_name
+MAINTAINER bidyut
 
 COPY /target/WebApp.war /usr/local/tomcat/webapps/
 
